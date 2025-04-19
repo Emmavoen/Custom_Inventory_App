@@ -37,17 +37,17 @@ MONGO_URI=your-mongodb-uri
 JWT_SECRET=your-secret-key
 ## 4. Run the Server
 npm run dev
-#📬 API Endpoints
-#✅ Register Super Admin
-#POST /api/auth/register-super-admin
+##📬 API Endpoints
+##✅ Register Super Admin
+##POST /api/auth/register-super-admin
 {
   "fullName": "Jane Doe",
   "companyName": "Shoprite",
   "email": "admin@example.com",
   "password": "securePassword"
 }
-#👥 Add New User
-#POST /api/users/add
+##👥 Add New User
+##POST /api/users/add
 {
   "fullName": "John Employee",
   "email": "john@example.com",
@@ -56,8 +56,8 @@ npm run dev
 }
 Only accessible to the Super Admin.
 
-#🔐 Login
-#POST /api/auth/login
+##🔐 Login
+##POST /api/auth/login
 {
   "email": "user@example.com",
   "password": "securePassword"
